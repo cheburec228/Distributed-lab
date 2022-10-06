@@ -2,13 +2,12 @@ import random
 import time
 
 # @author Zozulia Vyacheslav
-# @Version 1.0
+# @Version 1.1
 
 # Brut-force key
-# @param key generation in a range
-# @return brut_force_key with the previous value of the found key
-# @return duration time finding the key
+
 def brute(key):
+
     force_key = 0
     start = time.perf_counter_ns()
     while True:
@@ -17,7 +16,7 @@ def brute(key):
         else:
             print("Brute-force key: ", force_key)
             duration = time.perf_counter_ns() - start
-            print(f"The key was found in {duration // 1000000}ms.\n")
+            print(f"Key was found in {duration // 1000000}ms.\n")
             break
 
 
@@ -34,7 +33,7 @@ def generate(range):
 def prints(bits):
     for i in range(len(bits)):
         options = 2 ** bits[i]
-        print(bits[i], "- bit, Key options:", options)
+        print(bits[i], "- bit | Options - ", options)
         generate(options)
 
 # Enter function

@@ -7,7 +7,7 @@
 # Console
 
 Вивід результату
-~~~ bash
+``` bash
 8 - bit, Key options: 256   
 Key:  107
 Brute-force key:  106       
@@ -22,4 +22,4 @@ The key was found in 3ms.
 Key:  330409551
 Brute-force key:  1476631881
 The key was found in 112807ms.
-~~~
+```
