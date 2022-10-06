@@ -6,7 +6,6 @@
 
 # Console
 
-Вивід результату
 ```
 8 - bit, Key options: 256   
 Key:  107
