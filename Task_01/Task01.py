@@ -21,8 +21,7 @@ def brute(key):
 
 
 # Key generation in a range
-# @param bits_range bit range
-# @return key generated in a specific range
+
 def generate(range):
     key = random.randint(0, range)
     print("Key: ", key)
