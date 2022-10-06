@@ -5,8 +5,9 @@
 - Записані коментарі
 
 # Console
+
 Вивід результату
-|---| bash
+~~~ bash
 8 - bit, Key options: 256
 Key:  139
 Brute-force key:  138
@@ -21,4 +22,4 @@ The key was found in 2ms.
 Key:  1476631882
 Brute-force key:  1476631881
 The key was found in 112807ms.
-|---|
+~~~
