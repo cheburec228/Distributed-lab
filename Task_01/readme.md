@@ -6,20 +6,19 @@
 
 # Console
 
-Вивід результату
-``` bash
-8 - bit, Key options: 256   
-Key:  107
-Brute-force key:  106       
-The key was found in 0ms.   
+```
+8 - bit, Key options: 256
+Key:  35
+Brute-force key:  34
+The key was found in 0ms.
 
 16 - bit, Key options: 65536
-Key:  64115
-Brute-force key:  64114
-The key was found in 3ms.
+Key:  57898
+Brute-force key:  57897
+The key was found in 4ms.
 
 32 - bit, Key options: 4294967296
-Key:  330409551
-Brute-force key:  1476631881
-The key was found in 112807ms.
+Key:  1525761507
+Brute-force key:  1525761506
+The key was found in 89504ms.
 ```
