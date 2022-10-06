@@ -7,7 +7,7 @@
 # Console
 
 Вивід результату
-``` bash
+```
 8 - bit, Key options: 256   
 Key:  107
 Brute-force key:  106       
